@@ -1,0 +1,48 @@
+'''
+Parts List
+
+1. trachea_merged.stl - the main anatomy of the phantom
+2. trachea_ring.stl - insert which goes into the trachea_merged.  It has an opening where tape can be applied for users to cut/puncture
+3. trachea_silicone_mold_body - mold to create the silicone mold
+4. trachea_silicone_mold_end - caps the mold_body part
+5. trachea_blocker.stl - used to plug the trachea when pouring ballistic gel
+
+'''
+
+'''
+Printing params
+
+1. trachea_merged - Bridge nylon or any filament that can withstand high temps.  No supports.  Apperance is not a concern since this whole part will be covered by silicone/ballistic gel
+2. trachea_ring.stl - Any material, but can be Bridge nylon to make things simple.  Shouldn't need supports.
+3. trachea_silicone_mold_body - any material, PLA is fine.  4 shells minimum, 20% infill.
+4. trachea_silicone_mold_end - any material, PLA is fine. 4 shells minimum, 20% infill.
+5. trachea_blocker - Bridge nylon or any filament that can withstand high temps.  No supports.  print vertically with the features facing up.
+
+'''
+
+'''
+Assembly
+
+1. print the trachea_silicone_mold_body.  We're going to re-use these to create the silicone molds, so we don't need too many.
+2. print the trachea_silicone_mold_end.  Print one end for each body.
+3. print however many trachea_merged as needed by the order
+4. print an equal number of trachea_ring parts as trachea_merged.
+5. assemble the trachea_silicone_mold_body with the mold_end using screws.  Add some mold release.
+6. Pour silicone (do not use any 00 silicone, use any other silicone with >= 30 shore) into mold.  Does not have to go all the way to the top, just enough to cover the positive inside the mold and ~ 2 cm extra.  Let silicone fully cure.
+7. Prepare ballistic gel + graphite powder mixture
+	- take 20% ballistic gel, cut/tear into small chunks and put into crockpot.  Set crockpot at 240F (DO NOT EXCEED 250F).
+	- Melt the gel.  This will take a while (3 - 4 hours)
+	- add graphite powder once gel is melted.  
+		- wear gloves while adding graphite
+		- I have no set amount to add, just keep adding until the gel is no longer translucent
+8. slide trachea_blocker into trachea_merged.  The blocker has a set of features on one end that you can use to grab onto so make sure the features are facing out of the trachea.  Stop when the top of the blocker is flush with the opening of the trachea.
+9. attach trachea_merged onto the silicone mold.  It can only go one way
+10. Pour liquefied, MOLTEN, ballistic gel into the mold through the holes in the base of trachea_merged.	
+	- be very careful and wear the ovenmitts.  The gel is extremely hot
+11. let gel fully cool (maybe 20 - 60 mins)
+12. de-mold the ballistic gel with the printed parts
+13. remove the trachea_blocker.  Don't worry about tearing the gel.
+14. slide trachea_ring (with tape on opening) into cavity left by trachea_blocker.
+15. test imaging with ultrasound  
+
+'''
